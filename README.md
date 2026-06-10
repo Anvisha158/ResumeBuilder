@@ -4,7 +4,7 @@ A responsive Resume Builder web app that generates a live resume preview and dow
 - Live resume preview
 - PDF Download
 - Responsive two-column layout
-## Build With
+## Built With
 - HTML5
 - CSS3
 - JavaScript
