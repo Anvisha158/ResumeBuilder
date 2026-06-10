@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Builder</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+    <div class="container">
+    <div class="form-section">
+        <center><h1>Fill Your Detials</h1>
+        </center>
+        <label>Full Name <span style="color: red;">*</span></label>
+        <input type="text" id="name" placeholder="Full Name" required/>
+        <label>email <span style="color: red;">*</span></label>
+        <input type="text" id="email" placeholder="johndoe@gmail.com">
+        <label>phone <span style="color: red;">*</span></label>
+        <input type="text" id="phone" placeholder="5040807090">
+        <input type="text" id="github" placeholder="github URL" />
+        <input type="text" id="LinkDin"placeholder="Linkdin URL">
+        <label>College <span style="color: red;">*</span></label>
+        <input type="text" id="College" placeholder="College Name" >
+        <label>Course <span style="color: red;">*</span></label>
+        <input type="text" id="Course" placeholder="Course(e.g B.TECH/M.Tech CSE)">
+        <input type="text" id="Cgpa" placeholder="CGPA">
+        <label>Skills <span style="color: red;">*</span></label>
+        <input type="text" id="Skills" placeholder="Skills">
+        <label>Project name <span style="color: red;">*</span></label>
+        <textarea name="Project name" id="ProjectName"placeholder="Project Name"></textarea>
+        <textarea name=" Project Description" id="Project" placeholder="Project Description"></textarea>
+        <br>
+        <button onclick="generateResume()">Generate Resume</button>
+        <button onclick="DownloadResume()" id="downloadBtn" style="display:none; margin-top:10px; background:#16a34a;">Download PDF</button>
+    </div>
+    <div class="preview-section" id="resume">
+        <p style="color: red;">Fill the form and click Download...</p>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+  <script src="script.js"></script>
+    </div>
+</body>
+</html>

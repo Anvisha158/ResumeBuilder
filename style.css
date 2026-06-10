@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #e1d8d8;
+  padding: 20px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 80px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.form-section {
+  background: rgb(150, 182, 213);
+  padding: 24px;
+  border-radius: 10px;
+}
+
+.form-section h1 {
+  margin-bottom: 16px;
+  font-size: 18px;
+}
+
+.form-section input,
+.form-section textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+.form-section textarea {
+  height: 80px;
+  resize: none;
+}
+#ProjectName {
+    height:40px
+}
+
+.form-section button {
+  width: 100%;
+  padding: 12px;
+  background: #4f46e5;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.form-section button:hover {
+  background: #4338ca;
+}
+
+.preview-section {
+  background: white;
+  padding: 24px;
+  border-radius: 10px;
+  min-height: 400px;
+}
+label {
+  display: block;
+  font-size: 13px;
+  font-weight: 500;
+  margin-bottom: 4px;
+  color: #333;
+}
+#resume h1 {
+  font-size: 22px;
+  margin-bottom: 4px;
+}
+
+#resume .contact {
+  font-size: 13px;
+  color: gray;
+  margin-bottom: 12px;
+}
+
+#resume hr {
+  border: none;
+  border-top: 1px solid #ddd;
+  margin: 12px 0;
+}
+
+#resume h3 {
+  font-size: 13px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: 6px;
+}
+
+.skills-wrap {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.skill-tag {
+  font-size: 12px;
+  padding: 3px 10px;
+  border: 1px solid #ccc;
+  border-radius: 99px;
+  color: #333;
+} 
